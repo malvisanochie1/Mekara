@@ -1,815 +1,1216 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Mirrored from listee.dreamstechnologies.com/html/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jan 2024 21:17:32 GMT -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <title>Listee | Template</title>
 
-<!-- Mirrored from listee.dreamstechnologies.com/html/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jan 2024 21:17:32 GMT -->
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-	<title>Listee | Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
 
-	<!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.png">
-	
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-	<!-- Fontawesome CSS -->
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
-	
-	<!-- Select2 CSS -->
-	<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
-	
-	<!-- Aos CSS -->
-	<link rel="stylesheet" href="assets/plugins/aos/aos.css">
-	
+    <!-- Fontawesome CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/fontawesome/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css" />
+
+    <!-- Select2 CSS -->
+    <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css" />
+
+    <!-- Aos CSS -->
+    <link rel="stylesheet" href="assets/plugins/aos/aos.css" />
+
     <!-- Fearther CSS -->
-	<link rel="stylesheet" href="assets/css/feather.css">
-		
-	
-	<!-- Fancybox CSS -->
-	<link rel="stylesheet" href="assets/plugins/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/feather.css" />
 
-	<!-- Main CSS -->
-	<link rel="stylesheet" href="assets/css/style.css">
-	
-</head>
+    <!-- Fancybox CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/fancybox/jquery.fancybox.min.css"
+    />
 
-<body>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
+  <body>
+    <div class="main-wrapper innerpagebg">
+      <!-- Header -->
+      <header class="header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg header-nav">
+            <div class="navbar-header">
+              <a id="mobile_btn" href="javascript:void(0);">
+                <span class="bar-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </a>
+              <a href="index.html" class="navbar-brand logo">
+                <img src="assets/img/logo.svg" class="img-fluid" alt="Logo" />
+              </a>
+            </div>
+            <div class="main-menu-wrapper">
+              <div class="menu-header">
+                <a href="index.html" class="menu-logo">
+                  <img src="assets/img/logo.svg" class="img-fluid" alt="Logo" />
+                </a>
+                <a
+                  id="menu_close"
+                  class="menu-close"
+                  href="javascript:void(0);"
+                >
+                  <i class="fas fa-times"></i
+                ></a>
+              </div>
+              <ul class="main-nav">
+                <li class="megamenu">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="megamenu">
+                  <a href="listing-grid.html">Service list</a>
+                </li>
+                <li class="megamenu active">
+                  <a href="service-details.html">Service Details </a>
+                </li>
+                <li class="megamenu">
+                  <a href="client-message.html">Chats </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="nav header-navbar-rht">
+              <li class="nav-item">
+                <a class="nav-link header-reg" href="signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header-login" href="login.html"> Sign In</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /Header -->
 
-	<div class="main-wrapper innerpagebg">
-	    
-		<!-- Header -->
-		<header class="header">
-			<div class="container">
-				<nav class="navbar navbar-expand-lg header-nav">
-					<div class="navbar-header">
-						<a id="mobile_btn" href="javascript:void(0);">
-							<span class="bar-icon">
-								<span></span>
-								<span></span>
-								<span></span>
-							</span>
-						</a>
-						<a href="index.html" class="navbar-brand logo">
-							<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
-						</a>						
-					</div>
-					<div class="main-menu-wrapper">
-						<div class="menu-header">
-							<a href="index.html" class="menu-logo">
-								<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
-							</a>
-							<a id="menu_close" class="menu-close" href="javascript:void(0);"> <i class="fas fa-times"></i></a>
-						</div>
-						<ul class="main-nav">
-							<li class=" megamenu">
-								<a href="index.html">Home</a>
-							</li>
-							<li class="has-submenu">
-								<a href="listing-grid.html">Service list</a>
-							</li>
-							<li class="has-submenu active">
-								<a href="service-details.html">Service Details </a>
-							</li>
-							<li class="has-submenu">
-								<a href="client-message.html">Chats </a>
-							</li>
-						</ul>
-					</div>
-					<ul class="nav header-navbar-rht">
-						<li class="nav-item">
-							<a class="nav-link header-reg" href="signup.html">Sign Up</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link header-login" href="login.html"> Sign In</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<!-- /Header -->
-		
-		<!--Galler Slider Section-->
-		<div class="bannergallery-section mt-3">
-		     <div class="gallery-slider row g-0">
-                    <div class="gallery-widget col-3 bg-galary">
-					    <a href="assets/img/service/service-details/hairbg4.jpg" data-fancybox="gallery1">
-							<img class="img-fluid w-100 h-100 object-fit-cover" alt="Image" src="assets/img/service/service-details/hairbg4.jpg">
-						</a>
-					</div>	
-                    <div class="gallery-widget col-3 bg-galary">
-					    <a href="assets/img/service/service-details/hairbg2.jpg" data-fancybox="gallery1">
-							<img class="img-fluid w-100 h-100 object-fit-cover" alt="Image" src="assets/img/service/service-details/hairbg2.jpg">
-						</a>
-					</div>								
-					<div class="gallery-widget col-3 bg-galary">
-						<a href="assets/img/service/service-details/hairbg.jpeg" data-fancybox="gallery1">
-							<img class="img-fluid w-100 h-100 object-fit-cover" alt="Image" src="assets/img/service/service-details/hairbg.jpeg">
-						</a>
-					</div>	
-                    <div class="gallery-widget col-3 bg-galary">
-						<a href="assets/img/service/service-details/hair4.jpg" data-fancybox="gallery1">
-							<img class="img-fluid w-100 h-100 object-fit-cover" alt="Image" src="assets/img/service/service-details/hair4.jpg">
-						</a>
-					</div>			
-					<div class="showphotos">
-						<a href="assets/img/service/service-details/hairbg1.jpg" data-fancybox="gallery1">... Show Photos</a>
-					</div>								
-			   </div>			
-		</div>		
-		<!--/Galler Slider Section-->
-		
-		<!--Details Description  Section-->
-		<section class="details-description">
-		    <div class="container">
-			      <div class="about-details">
-				     <div class="about-headings">
-						<div class="author-img-position ">
-						<div class="author-img row justify-content-center align-content-center">
-						       <img src="assets/img/index-services/FreshCuts.jpg" class="col-12 object-fit-cover " alt="authorimg">
-						  </div>
-					</div>
-					      
-						  <div class="authordetails">
-						       <h5>Men's Haircut and Styling in Asaba, Nigeria</h5>
-							   <p>Luxury haircut in the heart of Asaba</p>
-							   <div class="rating">
-									<i class="fas fa-star filled"></i>
-									<i class="fas fa-star filled"></i>
-									<i class="fas fa-star filled"></i>
-									<i class="fas fa-star filled"></i>
-									<i class="fa-regular fa-star rating-color"></i>
-									<span class="d-inline-block average-rating"> 4.5 </span>
-							   </div>
-						  </div>
-					 </div>
-					 <div class="rate-details">
-					     <h2>₦ 5000</h2>
-						 <p>Fixed</p>
-					 </div>				  
-				  </div>
-				  <div class="descriptionlinks">
-					<div class="row">
-						  <div class="col-lg-9">
-							  <ul>
-								  <li><a href="javascript:void(0);"><i class="feather-map"></i> Get Directions</a></li>
-								  <li><a href="javascript:void(0);"><img src="assets/img/website.svg" alt="website">Website</a></li>
-								  <li><a href="javascript:void(0);"><i class="feather-share-2"></i> share</a></li>
-								  <li><a href="javascript:void(0);"><i class="fa-regular fa-comment-dots"></i> Write a review</a></li>
-								  <li><a href="javascript:void(0);"><i class="feather-flag"></i> report</a></li>
-								  <li><a href="javascript:void(0);"><i class="feather-heart"></i> Save</a></li>
-							  </ul>
-						  </div>
-						  <div class="col-lg-3">
-							  <div class="callnow">
-								  <a href="contact.html"> <i class="feather-phone-call"></i>  Call Now</a>
-							  </div>
-						  </div>
-					 </div>
-				  </div>
-			</div>		
-		</section>
-		<!--/Details Description  Section-->
-		
-		<!--Details Main  Section-->
-		<div class="details-main-wrapper listing-section ">	
-            <div class="container">
-			    <div class="row  mt-4">
-					<div class="col-lg-9  ">                             					
-						<div class="card">
-							<div class="card-header">
-								<span class="bar-icon">
-								<span></span>
-								<span></span>
-								<span></span>
-								</span> 
-								<h4>Description</h4>
-							</div>
-							<div class="card-body">
-								<p>Get a stylish haircut and grooming session from a professional barber in Asaba, Nigeria. This task is for men looking for a fresh new look or a trim to maintain their current style. Our professionals have extensive experience in cutting and styling men's hair, and we guarantee a satisfying experience.</p>
-								<p>Transform your appearance and elevate your style with a premium haircut and grooming session from our expert barbers in Asaba, Nigeria. Specifically designed for men seeking a fresh new look or a precise trim to maintain their current style, our services are tailored to meet your unique needs. </p>
-								<p>
-									Our team of highly skilled and experienced barbers have honed their craft in cutting and styling men's hair, ensuring a superior quality finish that exceeds your expectations. From fades and undercuts to pompadours and quiffs, we offer a wide range of styles to suit your individual taste and preference.
-									
-								</p>
-									<p>
-										At our barbershop, we prioritize your satisfaction and comfort. Our professionals will work closely with you to understand your vision, providing personalized guidance and recommendations to achieve the perfect look. Enjoy a relaxing and rejuvenating experience in our clean and welcoming environment, complete with amenities and refreshments to make your visit truly special.
-									
-									</p>
-							</div>
-						</div>					
-								
+      <!--Galler Slider Section-->
+      <div class="bannergallery-section mt-3">
+        <div class="gallery-slider row g-0">
+          <div class="gallery-widget col-3 bg-galary">
+            <a
+              href="assets/img/service/service-details/hairbg4.jpg"
+              data-fancybox="gallery1"
+            >
+              <img
+                class="img-fluid w-100 h-100 object-fit-cover"
+                alt="Image"
+                src="assets/img/service/service-details/hairbg4.jpg"
+              />
+            </a>
+          </div>
+          <div class="gallery-widget col-3 bg-galary">
+            <a
+              href="assets/img/service/service-details/hairbg2.jpg"
+              data-fancybox="gallery1"
+            >
+              <img
+                class="img-fluid w-100 h-100 object-fit-cover"
+                alt="Image"
+                src="assets/img/service/service-details/hairbg2.jpg"
+              />
+            </a>
+          </div>
+          <div class="gallery-widget col-3 bg-galary">
+            <a
+              href="assets/img/service/service-details/hairbg.jpeg"
+              data-fancybox="gallery1"
+            >
+              <img
+                class="img-fluid w-100 h-100 object-fit-cover"
+                alt="Image"
+                src="assets/img/service/service-details/hairbg.jpeg"
+              />
+            </a>
+          </div>
+          <div class="gallery-widget col-3 bg-galary">
+            <a
+              href="assets/img/service/service-details/hair4.jpg"
+              data-fancybox="gallery1"
+            >
+              <img
+                class="img-fluid w-100 h-100 object-fit-cover"
+                alt="Image"
+                src="assets/img/service/service-details/hair4.jpg"
+              />
+            </a>
+          </div>
+          <div class="showphotos">
+            <a
+              href="assets/img/service/service-details/hairbg1.jpg"
+              data-fancybox="gallery1"
+              >... Show Photos</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--/Galler Slider Section-->
 
+      <!--Details Description  Section-->
+      <section class="details-description">
+        <div class="container">
+          <div class="about-details">
+            <div class="about-headings">
+              <div class="author-img-position">
+                <div
+                  class="author-img row justify-content-center align-content-center"
+                >
+                  <img
+                    src="assets/img/index-services/FreshCuts.jpg"
+                    class="col-12 object-fit-cover"
+                    alt="authorimg"
+                  />
+                </div>
+              </div>
 
+              <div class="authordetails">
+                <h5>Men's Haircut and Styling in Asaba, Nigeria</h5>
+                <p>Luxury haircut in the heart of Asaba</p>
+                <div class="rating">
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fa-regular fa-star rating-color"></i>
+                  <span class="d-inline-block average-rating"> 4.5 </span>
+                </div>
+              </div>
+            </div>
+            <div class="rate-details">
+              <h2>₦ 5000</h2>
+              <p>Fixed</p>
+            </div>
+          </div>
+          <div class="descriptionlinks">
+            <div class="row">
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <a href="javascript:void(0);"
+                      ><i class="feather-map"></i> Get Directions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);"
+                      ><img
+                        src="assets/img/website.svg"
+                        alt="website"
+                      />Website</a
+                    >
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);"
+                      ><i class="feather-share-2"></i> share</a
+                    >
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);"
+                      ><i class="fa-regular fa-comment-dots"></i> Write a
+                      review</a
+                    >
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);"
+                      ><i class="feather-flag"></i> report</a
+                    >
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);"
+                      ><i class="feather-heart"></i> Save</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <div class="callnow">
+                  <a href="contact.html">
+                    <i class="feather-phone-call"></i> Call Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/Details Description  Section-->
 
-						
-						<!--Listing Features Section-->
-                        <div class="card">
-							<div class="card-header">
-								<i class="feather-list"></i>
-								<h4>Listing Features</h4>
-							</div>
-							<div class="card-body">
-							  <div class="lisiting-featues">
-							    <div class="price-body">
-							
-									<ul class="row">
-										<li class="col-md-3 active mx-3">Luxurious ambiance</li>
-										<li class="col-md-3 active mx-3">Master barbers</li>
-										<li class="col-md-3 active mx-3">Personalized service</li>
-										<li class="col-md-3 active mx-3">High-end products</li>
-										<li class="col-md-3 active mx-3">Hot towel shaves</li>
-										<li class="col-md-3 active mx-3">Advanced techniques</li>
-										<li class="col-md-3 active mx-3">Privacy and discretion</li>
-										<li class="col-md-3 active mx-3">Complimentary beverages</li>
-										<li class="col-md-3 active mx-3">Luxury amenities</li>
-										<li class="col-md-3 active mx-3">Appointment flexibility</li>
-										<li class="col-md-3 active mx-3">State-of-the-art equipment</li>
-									</ul>							
-								</div>
-								</div>	
-							</div>	
-                        </div>									
-						<!--/Listing Features Section-->
-							
-                        <!--Gallery Section-->							   
-                        <div class="card gallery-section ">
-							<div class="card-header ">
-								<img src="assets/img/galleryicon.svg" alt="gallery">
-								<h4>Gallery</h4>
-							</div>
-							<div class="card-body">
-							  <div class="gallery-content">
-							    <div class="row">
-								    <div class="col-lg-3 col-md-3 col-sm-3">
-										<div class="gallery-widget galary-size">
-											<a href="assets/img/service/service-details/hairbg1.jpg" data-fancybox="gallery1">
-											<img class="img-fluid object-fit-cover w-100 h-100" alt="Image" src="assets/img/service/service-details/hairbg1.jpg">
-											</a>
-										</div>								
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3">
-										<div class="gallery-widget galary-size">
-											<a href="assets/img/service/service-details/hairbg2.jpg" data-fancybox="gallery1">
-											<img class="img-fluid object-fit-cover w-100 h-100" alt="Image" src="assets/img/service/service-details/hairbg2.jpg">
-											</a>											
-										</div>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3">
-										<div class="gallery-widget galary-size">
-											<a href="assets/img/service/service-details/hairbg.jpeg" data-fancybox="gallery1">
-											<img class="img-fluid object-fit-cover w-100 h-100" alt="Image" src="assets/img/service/service-details/hairbg.jpeg">
-											</a>											
-										</div>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3">
-										<div class="gallery-widget me-0 galary-size">
-											<a href="assets/img/service/service-details/hair1.jpg" data-fancybox="gallery1">
-											<img class="img-fluid object-fit-cover w-100 h-100" alt="Image" src="assets/img/service/service-details/hair1.jpg">
-											</a>											
-										</div>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3">
-										<div class="gallery-widget galary-size">
-											<a href="assets/img/service/service-details/hair2.jpg" data-fancybox="gallery1">
-											<img class="img-fluid object-fit-cover w-100 h-100" alt="Image" src="assets/img/service/service-details/hair2.jpg">
-											</a>											
-										</div>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3">
-										<div class="gallery-widget galary-size">
-											<a href="assets/img/service/service-details/hair3.jpg" data-fancybox="gallery1">
-											<img class="img-fluid object-fit-cover w-100 h-100" alt="Image" src="assets/img/service/service-details/hair3.jpg">
-											</a>											
-										</div>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3">
-										<div class="gallery-widget galary-size">
-											<a href="assets/img/service/service-details/hair4.jpg" data-fancybox="gallery1">
-											<img class="img-fluid object-fit-cover w-100 h-100" alt="Image" src="assets/img/service/service-details/hair4.jpg">
-											</a>											
-										</div>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3">
-										<div class="gallery-widget me-0 galary-size">
-											<a href="assets/img/service/service-details/hair5.jpg" data-fancybox="gallery1">
-											<img class="img-fluid object-fit-cover w-100 h-100" alt="Image" src="assets/img/service/service-details/hair5.jpg">
-											</a>											
-										</div>
-									</div>
-                                </div>								
-							  </div>									
-							</div>					
-						</div>									
-						<!--/Gallery Section-->
-						
-						<!--Ratings Section-->
-						<div class="card ">
-							<div class="card-header  align-items-center">
-								<i class="feather-star"></i>
-								<h4>Ratings</h4>
-							</div>
-							<div class="card-body">
-						        <div class="ratings-content">											
-									<div class="row">
-									    <div class="col-lg-3">
-								          <div class="ratings-info">
-								 	        <p class="ratings-score"><span>4</span>/5</p>
-											<p>OVERALL</p>
-											<p> <i class="fas fa-star filled"></i>
-												<i class="fas fa-star filled"></i>
-												<i class="fas fa-star filled"></i>
-												<i class="fas fa-star filled"></i>
-												<i class="fa-regular fa-star"></i></p>
-											<p>Based on Listing</p>
-								 		  </div>   
-										</div>
-										<div class="col-lg-9">
-										   <div class="ratings-table table-responsive">
-										     <table class="">
-										        <tr>
-											       <td class="star-ratings"><i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i></td>
-											        <td class="scrore-width"><span> </span></td>
-													<td> 0</td>														   
-												</tr>
-												<tr>
-												    <td class="star-ratings" ><i class="fas fa-star filled"></i>
-												    	<i class="fas fa-star filled"></i>
-														<i class="fas fa-star filled"></i>
-														<i class="fas fa-star filled"></i>
-														<i class="fa-regular fa-star rating-color"></i>
-												    <td class="scrore-width selected"><span> </span></td>
-												    <td> 1</td>														   
-												</tr>
-												<tr>
-												    <td class="star-ratings"><i class="fas fa-star filled"></i>
-														<i class="fas fa-star filled"></i>
-														<i class="fas fa-star filled"></i>
-														<i class="fa-regular fa-star rating-color"></i>
-														<i class="fa-regular fa-star rating-color"></i></td>
-												    <td class="scrore-width"><span> </span></td>
-												    <td> 0</td>														   
-												</tr>
-												<tr>
-												    <td class="star-ratings"><i class="fas fa-star filled"></i>
-													    <i class="fas fa-star filled"></i>
-														<i class="fa-regular fa-star rating-color"></i>
-														<i class="fa-regular fa-star rating-color"></i>
-														<i class="fa-regular fa-star rating-color"></i>
-													<td class="scrore-width"><span> </span></td>
-													<td> 0</td>														   
-												</tr>
-												<tr>
-												    <td class="star-ratings"><i class="fas fa-star filled"></i>
-														<i class="fa-regular fa-star rating-color"></i>
-														<i class="fa-regular fa-star rating-color"></i>
-														<i class="fa-regular fa-star rating-color"></i>
-														<i class="fa-regular fa-star rating-color"></i></td>
-												    <td class="scrore-width"><span> </span></td>
-												    <td> 0</td>														   
-												</tr>
-											</table>
-									      </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>							
-						<!--/Ratings Section-->
-							
-						<!--Review  Section-->
-						<div  class="card review-sec  mb-0">
-							<div class="card-header  align-items-center">
-								<i class="fa-regular fa-comment-dots"></i>
-								<h4>Write a Review</h4>
-							</div>
-							<div class="card-body">
-							    <div class="review-list">
-							        <ul class="">
-									    <li class="review-box ">
-											<div class="review-profile">
-												<div class="review-img">
-													<img src="assets/img/profiles/avatar-11.jpg" class="img-fluid" alt="img">
-												</div>															
-											</div>
-											<div class="review-details">
-												<h6>Joseph</h6>
-												<div class="rating">
-                                                    <div class="rating-star">
-													   <i class="fas fa-star filled"></i>
-													   <i class="fas fa-star filled"></i>
-													   <i class="fas fa-star filled"></i>
-													   <i class="fas fa-star filled"></i>
-													   <i class="fa-regular fa-star rating-overall"></i>
-													</div>							        
-													<div><i class="fa-sharp fa-solid fa-calendar-days"></i> 4 months ago</div>
-													<div>by: Demo Test</div>
-												</div>	
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>																	
-													<div class="row">
-													    <div class="col-lg-3  col-md-3 col-sm-3">
-														    <div class="review-gallery">
-															   <a href="assets/img/gallery/gallery1/gallery-6.jpg" data-fancybox="gallery">
-																<img class="img-fluid" alt="Image" src="assets/img/gallery/galleryimg-1.jpg">
-															  </a>
-															</div>
-														</div>
-														<div class="col-lg-3  col-md-3 col-sm-3">
-														    <div class="review-gallery">
-															   <a href="assets/img/gallery/gallery1/gallery-5.jpg" data-fancybox="gallery">
-																<img class="img-fluid" alt="Image" src="assets/img/gallery/galleryimg-2.jpg">
-															  </a>
-															</div>
-														</div>
-														<div class="col-lg-3  col-md-3 col-sm-3">
-														    <div class="review-gallery">
-															   <a href="assets/img/gallery/gallery1/gallery-8.jpg" data-fancybox="gallery">
-																<img class="img-fluid" alt="Image" src="assets/img/gallery/galleryimg-3.jpg">
-															  </a>
-															</div>
-														</div>
-														<div class="col-lg-3 col-md-3 col-sm-3">
-														    <div class="review-gallery">
-															   <a href="assets/img/gallery/gallery1/gallery-9.jpg" data-fancybox="gallery">
-																<img class="img-fluid" alt="Image" src="assets/img/gallery/galleryimg-9.jpg">
-															  </a>
-															</div>
-														</div>														
-													</div>
-												<div class="reply-box ">
-												    <p>Was This Review...? <a href="#" class="thumbsup"><i class="feather-thumbs-up"></i> Like </a>
-													   <a href="#" class="thumbsdown"><i class="feather-thumbs-down"></i> Dislike </a>
-													</p>
-												    <a href="#" class="replylink"><i class="feather-corner-up-left"></i> Reply</a>													
-												</div>
-											</div>							
-								        </li>
-										<li class="review-box">
-											<div class="review-profile">
-												<div class="review-img">
-													<img src="assets/img/profiles/avatar-02.jpg" class="img-fluid" alt="img">
-												</div>															
-											</div>
-											<div class="review-details">
-										        <h6>Dev</h6>
-												<div class="rating">
-                                                    <div class="rating-star">
-													   <i class="fas fa-star filled"></i>
-													   <i class="fas fa-star filled"></i>
-													   <i class="fas fa-star filled"></i>
-													   <i class="fas fa-star filled"></i>
-													   <i class="fa-regular fa-star rating-overall"></i>
-													</div>							        
-													<div><i class="fa-sharp fa-solid fa-calendar-days"></i> 4 months ago</div>
-													<div>by: Demo Test</div>
-												</div>		
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>																	
-											</div>
-										</li>
-										<li class="review-box">
-											<div class="review-profile">
-												<div class="review-img">
-													<img src="assets/img/profiles/avatar-01.jpg" class="img-fluid" alt="img">
-												</div>															
-											</div>
-											<div class="review-details">
-												<h6>Johnson</h6>
-												<div class="rating">
-                                                    <div class="rating-star">
-													   <i class="fas fa-star filled"></i>
-													   <i class="fas fa-star filled"></i>
-													   <i class="fas fa-star filled"></i>
-													   <i class="fas fa-star filled"></i>
-													   <i class="fa-regular fa-star rating-overall"></i>
-													</div>							        
-													<div><i class="fa-sharp fa-solid fa-calendar-days"></i> 4 months ago</div>
-													<div>by: Demo Test</div>
-												</div>		
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>																	
-												<div class="reply-box ">
-												    <p>Was This Review...? <a href="#" class="thumbsup"><i class="feather-thumbs-up"></i> Like </a>
-													   <a href="#" class="thumbsdown"><i class="feather-thumbs-down"></i> Dislike </a>
-													</p>
-												    <a href="#" class="replylink"><i class="feather-corner-up-left"></i> Reply</a>													
-												</div>
-											</div>
-									    </li>
-										<li class="review-box feedbackbox mb-0">
-											<div class="review-details">
-											   <h6>Leave Feedback About This</h6>
-										    </div>
-											<div class="card-body">
-												<form class="">
-													<div class="row">
-														<div class="col-lg-12 col-md-12">
-															<div class="form-set">
-																<input type="text" class="form-control" placeholder="Title">
-															</div>
-														</div>
-														<div class="col-lg-6 col-md-6 col-12">
-															<div class="form-set">
-																<input type="text" class="form-control" placeholder="Name*" required>
-															 </div>
-														</div>
-														<div class="col-lg-6 col-md-6 col-12">
-															<div class="form-set me-0">
-																<input type="email" class="form-control" placeholder="Email*" required>
-															 </div>
-														</div>
-														<div class="col-lg-12 col-md-12">
-															<div class="form-set">
-																<textarea rows="4" class="form-control"  placeholder="Write a Review*" required></textarea>
-															 </div>
-														</div>
-													</div>													
-													<div class="reviewbox-rating">
-													    <p><span> Rating</span> 
-                                                            <i class="fas fa-star filled"></i>
-													     	<i class="fas fa-star filled"></i>
-															<i class="fas fa-star filled"></i>
-															<i class="fas fa-star filled"></i>
-															<i class="fas fa-star filled"></i>
-														</p>
-													</div>
-													<div class="submit-section">
-														<button class="btn btn-primary submit-btn" type="submit"> Submit Review</button>
-													</div>
-												</form>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
-					    </div>	
-                        <!--/Review Section-->	
-							
-					</div>
-					<div class="col-lg-3 theiaStickySidebar">
-						<div class="rightsidebar">
-							<div class="card">
-							    <h4><img src="assets/img/breifcase.svg" alt=""> Business Info</h4>
-							    <div class="map-details">
-								  <div class="map-frame">
-								    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2238528387797!2d-122.41637708468208!3d37.78479337975754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858090475dcdc3%3A0x417fdbbd16e076ed!2s484%20Ellis%20St%2C%20San%20Francisco%2C%20CA%2094102%2C%20USA!5e0!3m2!1sen!2sin!4v1669879954211!5m2!1sen!2sin" width="200" height="160" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								  </div>							  
-								  <ul class="info-list">
-								    <li><i class="feather-map-pin"></i> 484, Ellis st, San Fransisco,<br>CS 94102, United States</li>
-								    <li><i class="feather-phone-call"></i> + 62 8245 9875</li>
-								    <li><i class="feather-mail"></i> <a href="https://listee.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="deadabaeaeb1acaa9eb2b7adaabbbbf0bdb1b3">[email&#160;protected]</a></li>
-								    <li><img src="assets/img/website.svg" alt="website"> www.listee.com</li>
-								    <li class="socialicons pb-0">
-									 <a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
-									 <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-									 <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-									 <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-								    </li>
-								  </ul>
-								</div>
-							</div>
-							<div class="card">
-							    <h4><img src="assets/img/statistic-icon.svg" alt="location"> Statisfic</h4>
-							    <ul class="statistics-list">
-								    <li><div class="statistic-details"><span class="icons"><i class="fa-regular fa-eye"></i></span>
-								       Views </div><span class="text-end"> 453563</span></li>
-									<li><div class="statistic-details"><span class="icons"><i class="feather-star"></i></span>
-									   Ratings </div><span class="text-end"> 153</span></li>
-									<li><div class="statistic-details"><span class="icons"><i class="feather-heart"></i></span>
-										 Favuorites </div><span class="text-end"> 123</span></li>
-									<li class="mb-0"><div class="statistic-details"><span class="icons"><i class="feather-share-2"></i></span>
-									     Shares </div><span class="text-end"> 50</span></li>
-								</ul>
-							</div>
-						    <div class="card">
-							    <h4> <i class="feather-user"></i> Author</h4>
-							    <div class="sidebarauthor-details align-items-center">
-								   <div class="sideauthor-img">
-								     <img src="assets/img/profiles/avatar-12.jpg" alt="author">
-								   </div>
-								   <div class="sideauthor-info">
-								       <p class="authorname">Johnson</p>
-								       <p >Member since Nov 24, 2017</p>
-								   </div>
-								</div>
-							</div>
-							<div class="card mb-0">
-							    <h4> <i class="feather-phone-call"></i> Contact Business</h4>
-							     	<form class="contactbusinessform">
-										<div class="form-set">
-										   <input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-set">
-										   <input type="email" class="form-control" placeholder="Email Address">
-										</div>
-                            			<div class="form-set">
-       										<textarea rows="6" class="form-control"  placeholder="Message" ></textarea>
-							    		</div>
-										<div class="submit-section">
-											<button class="btn btn-primary submit-btn" type="submit">Send Message</button>
-										</div>
-									</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>		
-		</div>		
-		<!-- /Details Main Section -->
-		
-	    <!-- Footer -->
-		<footer class="footer">
-		    <div class="container">
-			   	<div class="stay-tuned">
-			        <h3>Stay Tuned With Us</h3>
-			        <p>Subcribe to our newletter and never miss our latest news and promotions. Our newsletter is sent once a week, every thursday.</p>
-			        <form>
-                        <div class="form-set">
-						    <div class="group-img">
-								<i class="feather-mail"></i>
-								<input type="text" class="form-control" placeholder="Enter Email Address">
-							</div>							
-						</div>
-                        <button class="btn btn-primary" type="submit"> Subscribe</button>	 						
-                    </form>					
-				</div>			
-			</div>
-		
-			<!-- Footer Top -->
-			<div class="footer-top aos" data-aos="fade-up">
-				<div class="container">----------------------------
-					<div class="row">
-						<div class="col-lg-3 col-md-6">
-							<!-- Footer Widget -->
-							<div class="footer-widget">
-								<div class="footer-logo">
-									<a href="#"><img src="assets/img/footerlogo.svg" alt="logo"></a>
-								</div>
-								<div class="footer-content">
-									<p>Discover amazing professionals within Asaba.</p>
-								</div>							
-							</div>
-							<!-- /Footer Widget -->
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<!-- Footer Widget -->
-							<div class="footer-widget footer-menu">
-								<h2 class="footer-title">Clients</h2>
-								<ul>
-									<li>
-										<a href="signup.html">Login</a>
-									</li>
-									<li>
-										<a href="listing-grid.html"> Service List</a>
-									</li>
-									<li>
-										<a href="client-message.html">Chats</a>
-									</li>									
-								</ul>
-							</div>
-							<!-- /Footer Widget -->
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<!-- Footer Widget -->
-							<div class="footer-widget footer-menu">
-								<h2 class="footer-title">Professionals</h2>
-								<ul>
-									<li>
-										<a href="profile.html">Profile</a>
-									</li>
-									<li>
-										<a href="messages.html">Bookings</a>
-									</li>
-									<li>
-										<a href="reviews.html">Reviews</a>
-									</li>
-									<li>
-										<a href="my-listing.html">my Skills</a>
-									</li>
-									<li>
-										<a href="add-listing.html">Add Skills</a>
-									</li>									
-								</ul>
-							</div>
-							<!-- /Footer Widget -->
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<!-- Footer Widget -->
-							<div class="footer-widget">
-								<h2 class="footer-title">Communication</h2>
-								<div>
-									<ul>
-										<li>Email: <a href="https://listee.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e18d8892958484a18499808c918d84cf828e8c">[email&#160;protected]</a></li>
-										<li>Phone: 1 (00) 832 2342</li>
-									</ul>
-								</div>	
+      <!--Details Main  Section-->
+      <div class="details-main-wrapper listing-section">
+        <div class="container">
+          <div class="row mt-4">
+            <div class="col-lg-9">
+              <div class="card">
+                <div class="card-header">
+                  <span class="bar-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                  <h4>Description</h4>
+                </div>
+                <div class="card-body">
+                  <p>
+                    Get a stylish haircut and grooming session from a
+                    professional barber in Asaba, Nigeria. This task is for men
+                    looking for a fresh new look or a trim to maintain their
+                    current style. Our professionals have extensive experience
+                    in cutting and styling men's hair, and we guarantee a
+                    satisfying experience.
+                  </p>
+                  <p>
+                    Transform your appearance and elevate your style with a
+                    premium haircut and grooming session from our expert barbers
+                    in Asaba, Nigeria. Specifically designed for men seeking a
+                    fresh new look or a precise trim to maintain their current
+                    style, our services are tailored to meet your unique needs.
+                  </p>
+                  <p>
+                    Our team of highly skilled and experienced barbers have
+                    honed their craft in cutting and styling men's hair,
+                    ensuring a superior quality finish that exceeds your
+                    expectations. From fades and undercuts to pompadours and
+                    quiffs, we offer a wide range of styles to suit your
+                    individual taste and preference.
+                  </p>
+                  <p>
+                    At our barbershop, we prioritize your satisfaction and
+                    comfort. Our professionals will work closely with you to
+                    understand your vision, providing personalized guidance and
+                    recommendations to achieve the perfect look. Enjoy a
+                    relaxing and rejuvenating experience in our clean and
+                    welcoming environment, complete with amenities and
+                    refreshments to make your visit truly special.
+                  </p>
+                </div>
+              </div>
 
-								<div class="social-icon">
-									<ul>
-										<li>
-											<a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-										</li>
-										<li>
-											<a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
-										</li>
-										<li>
-											<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-										</li>
-										<li>
-											<a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-										</li>
-									</ul>
-                                </div>									
-							</div>
-							<!-- /Footer Widget -->							
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- /Footer Top -->
-						
-			<!-- Footer Bottom -->
-			<div class="footer-bottom">
-				<div class="container">
-					<!-- Copyright -->
-					<div class="copyright">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="copyright-text">
-									<p class="mb-0">All Copyrights Reserved &copy; 2023 - Listee.</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<!-- Copyright Menu -->
-								<div class="copyright-menu">
-									<ul class="policy-menu">
-										<li>
-											<a href="privacy-policy.html">Privacy </a>
-										</li>
-										<li>
-											<a href="faq.html">Faq </a>
-										</li>
-										<li>
-											<a href="terms-condition.html">Terms</a>
-										</li>										
-									</ul>
-								</div>
-								<!-- /Copyright Menu -->
-							</div>
-						</div>
-					</div>
-					<!-- /Copyright -->
-				</div>
-			</div>
-			<!-- /Footer Bottom -->
-			
-		</footer>
-		<!-- /Footer -->
-		
-	</div>
+              <!--Listing Features Section-->
+              <div class="card">
+                <div class="card-header">
+                  <i class="feather-list"></i>
+                  <h4>Listing Features</h4>
+                </div>
+                <div class="card-body">
+                  <div class="lisiting-featues">
+                    <div class="price-body">
+                      <ul class="row">
+                        <li class="col-md-3 active mx-3">Luxurious ambiance</li>
+                        <li class="col-md-3 active mx-3">Master barbers</li>
+                        <li class="col-md-3 active mx-3">
+                          Personalized service
+                        </li>
+                        <li class="col-md-3 active mx-3">High-end products</li>
+                        <li class="col-md-3 active mx-3">Hot towel shaves</li>
+                        <li class="col-md-3 active mx-3">
+                          Advanced techniques
+                        </li>
+                        <li class="col-md-3 active mx-3">
+                          Privacy and discretion
+                        </li>
+                        <li class="col-md-3 active mx-3">
+                          Complimentary beverages
+                        </li>
+                        <li class="col-md-3 active mx-3">Luxury amenities</li>
+                        <li class="col-md-3 active mx-3">
+                          Appointment flexibility
+                        </li>
+                        <li class="col-md-3 active mx-3">
+                          State-of-the-art equipment
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/Listing Features Section-->
+
+              <!--Gallery Section-->
+              <div class="card gallery-section">
+                <div class="card-header">
+                  <img src="assets/img/galleryicon.svg" alt="gallery" />
+                  <h4>Gallery</h4>
+                </div>
+                <div class="card-body">
+                  <div class="gallery-content">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="gallery-widget galary-size">
+                          <a
+                            href="assets/img/service/service-details/hairbg1.jpg"
+                            data-fancybox="gallery1"
+                          >
+                            <img
+                              class="img-fluid object-fit-cover w-100 h-100"
+                              alt="Image"
+                              src="assets/img/service/service-details/hairbg1.jpg"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="gallery-widget galary-size">
+                          <a
+                            href="assets/img/service/service-details/hairbg2.jpg"
+                            data-fancybox="gallery1"
+                          >
+                            <img
+                              class="img-fluid object-fit-cover w-100 h-100"
+                              alt="Image"
+                              src="assets/img/service/service-details/hairbg2.jpg"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="gallery-widget galary-size">
+                          <a
+                            href="assets/img/service/service-details/hairbg.jpeg"
+                            data-fancybox="gallery1"
+                          >
+                            <img
+                              class="img-fluid object-fit-cover w-100 h-100"
+                              alt="Image"
+                              src="assets/img/service/service-details/hairbg.jpeg"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="gallery-widget me-0 galary-size">
+                          <a
+                            href="assets/img/service/service-details/hair1.jpg"
+                            data-fancybox="gallery1"
+                          >
+                            <img
+                              class="img-fluid object-fit-cover w-100 h-100"
+                              alt="Image"
+                              src="assets/img/service/service-details/hair1.jpg"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="gallery-widget galary-size">
+                          <a
+                            href="assets/img/service/service-details/hair2.jpg"
+                            data-fancybox="gallery1"
+                          >
+                            <img
+                              class="img-fluid object-fit-cover w-100 h-100"
+                              alt="Image"
+                              src="assets/img/service/service-details/hair2.jpg"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="gallery-widget galary-size">
+                          <a
+                            href="assets/img/service/service-details/hair3.jpg"
+                            data-fancybox="gallery1"
+                          >
+                            <img
+                              class="img-fluid object-fit-cover w-100 h-100"
+                              alt="Image"
+                              src="assets/img/service/service-details/hair3.jpg"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="gallery-widget galary-size">
+                          <a
+                            href="assets/img/service/service-details/hair4.jpg"
+                            data-fancybox="gallery1"
+                          >
+                            <img
+                              class="img-fluid object-fit-cover w-100 h-100"
+                              alt="Image"
+                              src="assets/img/service/service-details/hair4.jpg"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="gallery-widget me-0 galary-size">
+                          <a
+                            href="assets/img/service/service-details/hair5.jpg"
+                            data-fancybox="gallery1"
+                          >
+                            <img
+                              class="img-fluid object-fit-cover w-100 h-100"
+                              alt="Image"
+                              src="assets/img/service/service-details/hair5.jpg"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/Gallery Section-->
+
+              <!--Ratings Section-->
+              <div class="card">
+                <div class="card-header align-items-center">
+                  <i class="feather-star"></i>
+                  <h4>Ratings</h4>
+                </div>
+                <div class="card-body">
+                  <div class="ratings-content">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="ratings-info">
+                          <p class="ratings-score"><span>4</span>/5</p>
+                          <p>OVERALL</p>
+                          <p>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </p>
+                          <p>Based on Listing</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-9">
+                        <div class="ratings-table table-responsive">
+                          <table class="">
+                            <tr>
+                              <td class="star-ratings">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                              </td>
+                              <td class="scrore-width"><span> </span></td>
+                              <td>0</td>
+                            </tr>
+                            <tr>
+                              <td class="star-ratings">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fa-regular fa-star rating-color"></i>
+                              </td>
+
+                              <td class="scrore-width selected">
+                                <span> </span>
+                              </td>
+                              <td>1</td>
+                            </tr>
+                            <tr>
+                              <td class="star-ratings">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fa-regular fa-star rating-color"></i>
+                                <i class="fa-regular fa-star rating-color"></i>
+                              </td>
+                              <td class="scrore-width"><span> </span></td>
+                              <td>0</td>
+                            </tr>
+                            <tr>
+                              <td class="star-ratings">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fa-regular fa-star rating-color"></i>
+                                <i class="fa-regular fa-star rating-color"></i>
+                                <i class="fa-regular fa-star rating-color"></i>
+                              </td>
+
+                              <td class="scrore-width"><span> </span></td>
+                              <td>0</td>
+                            </tr>
+                            <tr>
+                              <td class="star-ratings">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fa-regular fa-star rating-color"></i>
+                                <i class="fa-regular fa-star rating-color"></i>
+                                <i class="fa-regular fa-star rating-color"></i>
+                                <i class="fa-regular fa-star rating-color"></i>
+                              </td>
+                              <td class="scrore-width"><span> </span></td>
+                              <td>0</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/Ratings Section-->
+
+              <!--Review  Section-->
+              <div class="card review-sec mb-0">
+                <div class="card-header align-items-center">
+                  <i class="fa-regular fa-comment-dots"></i>
+                  <h4>Write a Review</h4>
+                </div>
+                <div class="card-body">
+                  <div class="review-list">
+                    <ul class="">
+                      <li class="review-box">
+                        <div class="review-profile">
+                          <div class="review-img">
+                            <img
+                              src="assets/img/profiles/avatar-11.jpg"
+                              class="img-fluid"
+                              alt="img"
+                            />
+                          </div>
+                        </div>
+                        <div class="review-details">
+                          <h6>Joseph</h6>
+                          <div class="rating">
+                            <div class="rating-star">
+                              <i class="fas fa-star filled"></i>
+                              <i class="fas fa-star filled"></i>
+                              <i class="fas fa-star filled"></i>
+                              <i class="fas fa-star filled"></i>
+                              <i class="fa-regular fa-star rating-overall"></i>
+                            </div>
+                            <div>
+                              <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                              4 months ago
+                            </div>
+                            <div>by: Demo Test</div>
+                          </div>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book.
+                          </p>
+                          <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                              <div class="review-gallery">
+                                <a
+                                  href="assets/img/gallery/gallery1/gallery-6.jpg"
+                                  data-fancybox="gallery"
+                                >
+                                  <img
+                                    class="img-fluid"
+                                    alt="Image"
+                                    src="assets/img/gallery/galleryimg-1.jpg"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                              <div class="review-gallery">
+                                <a
+                                  href="assets/img/gallery/gallery1/gallery-5.jpg"
+                                  data-fancybox="gallery"
+                                >
+                                  <img
+                                    class="img-fluid"
+                                    alt="Image"
+                                    src="assets/img/gallery/galleryimg-2.jpg"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                              <div class="review-gallery">
+                                <a
+                                  href="assets/img/gallery/gallery1/gallery-8.jpg"
+                                  data-fancybox="gallery"
+                                >
+                                  <img
+                                    class="img-fluid"
+                                    alt="Image"
+                                    src="assets/img/gallery/galleryimg-3.jpg"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                              <div class="review-gallery">
+                                <a
+                                  href="assets/img/gallery/gallery1/gallery-9.jpg"
+                                  data-fancybox="gallery"
+                                >
+                                  <img
+                                    class="img-fluid"
+                                    alt="Image"
+                                    src="assets/img/gallery/galleryimg-9.jpg"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="reply-box">
+                            <p>
+                              Was This Review...?
+                              <a href="#" class="thumbsup"
+                                ><i class="feather-thumbs-up"></i> Like
+                              </a>
+                              <a href="#" class="thumbsdown"
+                                ><i class="feather-thumbs-down"></i> Dislike
+                              </a>
+                            </p>
+                            <a href="#" class="replylink"
+                              ><i class="feather-corner-up-left"></i> Reply</a
+                            >
+                          </div>
+                        </div>
+                      </li>
+                      <li class="review-box">
+                        <div class="review-profile">
+                          <div class="review-img">
+                            <img
+                              src="assets/img/profiles/avatar-02.jpg"
+                              class="img-fluid"
+                              alt="img"
+                            />
+                          </div>
+                        </div>
+                        <div class="review-details">
+                          <h6>Dev</h6>
+                          <div class="rating">
+                            <div class="rating-star">
+                              <i class="fas fa-star filled"></i>
+                              <i class="fas fa-star filled"></i>
+                              <i class="fas fa-star filled"></i>
+                              <i class="fas fa-star filled"></i>
+                              <i class="fa-regular fa-star rating-overall"></i>
+                            </div>
+                            <div>
+                              <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                              4 months ago
+                            </div>
+                            <div>by: Demo Test</div>
+                          </div>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book.
+                          </p>
+                        </div>
+                      </li>
+                      <li class="review-box">
+                        <div class="review-profile">
+                          <div class="review-img">
+                            <img
+                              src="assets/img/profiles/avatar-01.jpg"
+                              class="img-fluid"
+                              alt="img"
+                            />
+                          </div>
+                        </div>
+                        <div class="review-details">
+                          <h6>Johnson</h6>
+                          <div class="rating">
+                            <div class="rating-star">
+                              <i class="fas fa-star filled"></i>
+                              <i class="fas fa-star filled"></i>
+                              <i class="fas fa-star filled"></i>
+                              <i class="fas fa-star filled"></i>
+                              <i class="fa-regular fa-star rating-overall"></i>
+                            </div>
+                            <div>
+                              <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                              4 months ago
+                            </div>
+                            <div>by: Demo Test</div>
+                          </div>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book.
+                          </p>
+                          <div class="reply-box">
+                            <p>
+                              Was This Review...?
+                              <a href="#" class="thumbsup"
+                                ><i class="feather-thumbs-up"></i> Like
+                              </a>
+                              <a href="#" class="thumbsdown"
+                                ><i class="feather-thumbs-down"></i> Dislike
+                              </a>
+                            </p>
+                            <a href="#" class="replylink"
+                              ><i class="feather-corner-up-left"></i> Reply</a
+                            >
+                          </div>
+                        </div>
+                      </li>
+                      <li class="review-box feedbackbox mb-0">
+                        <div class="review-details">
+                          <h6>Leave Feedback About This</h6>
+                        </div>
+                        <div class="card-body">
+                          <form class="">
+                            <div class="row">
+                              <div class="col-lg-12 col-md-12">
+                                <div class="form-set">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Title"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-12">
+                                <div class="form-set">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Name*"
+                                    required
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-12">
+                                <div class="form-set me-0">
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    placeholder="Email*"
+                                    required
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12">
+                                <div class="form-set">
+                                  <textarea
+                                    rows="4"
+                                    class="form-control"
+                                    placeholder="Write a Review*"
+                                    required
+                                  ></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="reviewbox-rating">
+                              <p>
+                                <span> Rating</span>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                              </p>
+                            </div>
+                            <div class="submit-section">
+                              <button
+                                class="btn btn-primary submit-btn"
+                                type="submit"
+                              >
+                                Submit Review
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--/Review Section-->
+            </div>
+            <div class="col-lg-3 theiaStickySidebar">
+              <div class="rightsidebar">
+                <div class="card">
+                  <h4>
+                    <img src="assets/img/breifcase.svg" alt="" /> Business Info
+                  </h4>
+                  <div class="map-details">
+                    <div class="map-frame">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2238528387797!2d-122.41637708468208!3d37.78479337975754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858090475dcdc3%3A0x417fdbbd16e076ed!2s484%20Ellis%20St%2C%20San%20Francisco%2C%20CA%2094102%2C%20USA!5e0!3m2!1sen!2sin!4v1669879954211!5m2!1sen!2sin"
+                        width="200"
+                        height="160"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      ></iframe>
+                    </div>
+                    <ul class="info-list">
+                      <li>
+                        <i class="feather-map-pin"></i> 484, Ellis st, San
+                        Fransisco,<br />CS 94102, United States
+                      </li>
+                      <li><i class="feather-phone-call"></i> + 62 8245 9875</li>
+                      <li>
+                        <i class="feather-mail"></i>
+                        <a
+                          href="https://listee.dreamstechnologies.com/cdn-cgi/l/email-protection"
+                          class="__cf_email__"
+                          data-cfemail="deadabaeaeb1acaa9eb2b7adaabbbbf0bdb1b3"
+                          >[email&#160;protected]</a
+                        >
+                      </li>
+                      <li>
+                        <img src="assets/img/website.svg" alt="website" />
+                        www.listee.com
+                      </li>
+                      <li class="socialicons pb-0">
+                        <a href="#" target="_blank"
+                          ><i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" target="_blank"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="#" target="_blank"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="#" target="_blank"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <h4>
+                    <img src="assets/img/statistic-icon.svg" alt="location" />
+                    Statisfic
+                  </h4>
+                  <ul class="statistics-list">
+                    <li>
+                      <div class="statistic-details">
+                        <span class="icons"
+                          ><i class="fa-regular fa-eye"></i
+                        ></span>
+                        Views
+                      </div>
+                      <span class="text-end"> 453563</span>
+                    </li>
+                    <li>
+                      <div class="statistic-details">
+                        <span class="icons"><i class="feather-star"></i></span>
+                        Ratings
+                      </div>
+                      <span class="text-end"> 153</span>
+                    </li>
+                    <li>
+                      <div class="statistic-details">
+                        <span class="icons"><i class="feather-heart"></i></span>
+                        Favuorites
+                      </div>
+                      <span class="text-end"> 123</span>
+                    </li>
+                    <li class="mb-0">
+                      <div class="statistic-details">
+                        <span class="icons"
+                          ><i class="feather-share-2"></i
+                        ></span>
+                        Shares
+                      </div>
+                      <span class="text-end"> 50</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card">
+                  <h4><i class="feather-user"></i> Author</h4>
+                  <div class="sidebarauthor-details align-items-center">
+                    <div class="sideauthor-img">
+                      <img
+                        src="assets/img/profiles/avatar-12.jpg"
+                        alt="author"
+                      />
+                    </div>
+                    <div class="sideauthor-info">
+                      <p class="authorname">Johnson</p>
+                      <p>Member since Nov 24, 2017</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-0">
+                  <h4><i class="feather-phone-call"></i> Contact Business</h4>
+                  <form class="contactbusinessform">
+                    <div class="form-set">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div class="form-set">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email Address"
+                      />
+                    </div>
+                    <div class="form-set">
+                      <textarea
+                        rows="6"
+                        class="form-control"
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                    <div class="submit-section">
+                      <button class="btn btn-primary submit-btn" type="submit">
+                        Send Message
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Details Main Section -->
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="stay-tuned">
+            <h3>Stay Tuned With Us</h3>
+            <p>
+              Subcribe to our newletter and never miss our latest news and
+              promotions. Our newsletter is sent once a week, every thursday.
+            </p>
+            <form>
+              <div class="form-set">
+                <div class="group-img">
+                  <i class="feather-mail"></i>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Email Address"
+                  />
+                </div>
+              </div>
+              <button class="btn btn-primary" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Footer Top -->
+        <div class="footer-top aos" data-aos="fade-up">
+          <div class="container">
+            ----------------------------
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <!-- Footer Widget -->
+                <div class="footer-widget">
+                  <div class="footer-logo">
+                    <a href="#"
+                      ><img src="assets/img/footerlogo.svg" alt="logo"
+                    /></a>
+                  </div>
+                  <div class="footer-content">
+                    <p>Discover amazing professionals within Asaba.</p>
+                  </div>
+                </div>
+                <!-- /Footer Widget -->
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <!-- Footer Widget -->
+                <div class="footer-widget footer-menu">
+                  <h2 class="footer-title">Clients</h2>
+                  <ul>
+                    <li>
+                      <a href="signup.html">Login</a>
+                    </li>
+                    <li>
+                      <a href="listing-grid.html"> Service List</a>
+                    </li>
+                    <li>
+                      <a href="client-message.html">Chats</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /Footer Widget -->
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <!-- Footer Widget -->
+                <div class="footer-widget footer-menu">
+                  <h2 class="footer-title">Professionals</h2>
+                  <ul>
+                    <li>
+                      <a href="profile.html">Profile</a>
+                    </li>
+                    <li>
+                      <a href="messages.html">Bookings</a>
+                    </li>
+                    <li>
+                      <a href="reviews.html">Reviews</a>
+                    </li>
+                    <li>
+                      <a href="my-listing.html">my Skills</a>
+                    </li>
+                    <li>
+                      <a href="add-listing.html">Add Skills</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /Footer Widget -->
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <!-- Footer Widget -->
+                <div class="footer-widget">
+                  <h2 class="footer-title">Communication</h2>
+                  <div>
+                    <ul>
+                      <li>
+                        Email:
+                        <a
+                          href="https://listee.dreamstechnologies.com/cdn-cgi/l/email-protection"
+                          class="__cf_email__"
+                          data-cfemail="e18d8892958484a18499808c918d84cf828e8c"
+                          >[email&#160;protected]</a
+                        >
+                      </li>
+                      <li>Phone: 1 (00) 832 2342</li>
+                    </ul>
+                  </div>
+
+                  <div class="social-icon">
+                    <ul>
+                      <li>
+                        <a href="#" target="_blank"
+                          ><i class="fa-brands fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"
+                          ><i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"
+                          ><i class="fa-brands fa-linkedin"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- /Footer Widget -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Footer Top -->
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="container">
+            <!-- Copyright -->
+            <div class="copyright">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="copyright-text">
+                    <p class="mb-0">
+                      All Copyrights Reserved &copy; 2023 - Listee.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <!-- Copyright Menu -->
+                  <div class="copyright-menu">
+                    <ul class="policy-menu">
+                      <li>
+                        <a href="privacy-policy.html">Privacy </a>
+                      </li>
+                      <li>
+                        <a href="faq.html">Faq </a>
+                      </li>
+                      <li>
+                        <a href="terms-condition.html">Terms</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /Copyright Menu -->
+                </div>
+              </div>
+            </div>
+            <!-- /Copyright -->
+          </div>
+        </div>
+        <!-- /Footer Bottom -->
+      </footer>
+      <!-- /Footer -->
+    </div>
 
     <!-- scrollToTop start -->
-	<div class="progress-wrap active-progress">
-		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 228.265px;"></path>
-		</svg>
-	</div>
-	<!-- scrollToTop end -->
-	
-	
-	<!-- jQuery -->
-	<script data-cfasync="false" src="https://listee.dreamstechnologies.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
+    <div class="progress-wrap active-progress">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path
+          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+          style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919px, 307.919px;
+            stroke-dashoffset: 228.265px;
+          "
+        ></path>
+      </svg>
+    </div>
+    <!-- scrollToTop end -->
 
-	<!-- Bootstrap Core JS -->
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
-	
-	<!-- Select2 JS -->
-	<script src="assets/plugins/select2/js/select2.min.js"></script>
-	
-	<!-- Aos -->
-	<script src="assets/plugins/aos/aos.js"></script>
-	
-	<!-- Fearther JS -->
-	<script src="assets/js/feather.min.js"></script>
-	
-	<!-- Top JS -->
-	<script src="assets/js/backToTop.js"></script>
-	
-   	<!-- Sticky Sidebar JS -->
-	<script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
-	<script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
-	
-	<!-- Fancybox JS -->
-	<script src="assets/plugins/fancybox/jquery.fancybox.min.js"></script>
-	
-	<!-- Custom JS -->
-	<script src="assets/js/script.js"></script>
-	
-</body>
+    <!-- jQuery -->
+    <script
+      data-cfasync="false"
+      src="https://listee.dreamstechnologies.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
 
-<!-- Mirrored from listee.dreamstechnologies.com/html/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jan 2024 21:17:57 GMT -->
+    <!-- Bootstrap Core JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="assets/plugins/select2/js/select2.min.js"></script>
+
+    <!-- Aos -->
+    <script src="assets/plugins/aos/aos.js"></script>
+
+    <!-- Fearther JS -->
+    <script src="assets/js/feather.min.js"></script>
+
+    <!-- Top JS -->
+    <script src="assets/js/backToTop.js"></script>
+
+    <!-- Sticky Sidebar JS -->
+    <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+    <!-- Fancybox JS -->
+    <script src="assets/plugins/fancybox/jquery.fancybox.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+
+  <!-- Mirrored from listee.dreamstechnologies.com/html/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jan 2024 21:17:57 GMT -->
 </html>
