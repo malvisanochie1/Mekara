@@ -1,15 +1,32 @@
-p.footer-text{
-    font-size: 10px;
-    color: rgb(202, 198, 198);
-}
-.ms{
-    font-size: 30px;
-}
-.tab-bg{
-    background-color: #384755;
+
+
+p.footer-text {
+  color: rgb(202, 198, 198);
 }
 @media only screen and (min-width: 768px) {
-    .tab-bg{
-        display: none;
-    }
+  p.footer-text {
+    font-size: 13px;
+    color: rgb(202, 198, 198);
+  }
+}
+.ms {
+  font-size: 30px;
+}
+.tab-bg {
+  background-color: #384755;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px !important;
+    
+  }
+  *::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
 }
