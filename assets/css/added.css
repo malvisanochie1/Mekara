@@ -1,0 +1,15 @@
+p.footer-text{
+    font-size: 10px;
+    color: rgb(202, 198, 198);
+}
+.ms{
+    font-size: 30px;
+}
+.tab-bg{
+    background-color: #384755;
+}
+@media only screen and (min-width: 768px) {
+    .tab-bg{
+        display: none;
+    }
+}

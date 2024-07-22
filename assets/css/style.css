@@ -20337,4 +20337,16 @@ body table.listing-table.datatable {
   }
 }
 
+.d-flex.justify-content-between.bg-green.py-2.px-2.align-items-center.shadow-lg {
+  background-color: red;
+}
+/* Hide scrollbar on mobile devices */
+@media only screen and (max-width: 768px) {
+  * {
+    -ms-overflow-style: none;  /* Internet Explorer, Edge */
+     /* Hide vertical scrollbar */
+    overflow-x: hidden;  /* Hide horizontal scrollbar */
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
